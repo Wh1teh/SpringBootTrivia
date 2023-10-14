@@ -1,0 +1,308 @@
+{
+    "easy": [
+        {
+            "question": "Who painted the Mona Lisa?",
+            "options": [
+                "Leonardo da Vinci",
+                "Michelangelo",
+                "Vincent van Gogh",
+                "Pablo Picasso"
+            ],
+            "answer": "Leonardo da Vinci"
+        },
+        {
+            "question": "What is the capital of France?",
+            "options": [
+                "Rome",
+                "Madrid",
+                "Berlin",
+                "Paris"
+            ],
+            "answer": "Paris"
+        },
+        {
+            "question": "In the nursery rhyme, who sat on a wall before having a great fall?",
+            "options": [
+                "Jack",
+                "Humpty Dumpty",
+                "Little Miss Muffet",
+                "Mary"
+            ],
+            "answer": "Humpty Dumpty"
+        },
+        {
+            "question": "Which planet is known as the \"red planet\"?",
+            "options": [
+                "Mars",
+                "Venus",
+                "Jupiter",
+                "Saturn"
+            ],
+            "answer": "Mars"
+        },
+        {
+            "question": "What is the largest ocean in the world?",
+            "options": [
+                "Atlantic Ocean",
+                "Indian Ocean",
+                "Pacific Ocean",
+                "Arctic Ocean"
+            ],
+            "answer": "Pacific Ocean"
+        },
+        {
+            "question": "Who is the author of the Harry Potter book series?",
+            "options": [
+                "J.R.R. Tolkien",
+                "C.S. Lewis",
+                "J.K. Rowling",
+                "Stephenie Meyer"
+            ],
+            "answer": "J.K. Rowling"
+        },
+        {
+            "question": "Which country has the largest population?",
+            "options": [
+                "Brazil",
+                "India",
+                "United States",
+                "China"
+            ],
+            "answer": "China"
+        },
+        {
+            "question": "What is the chemical symbol for gold?",
+            "options": [
+                "Au",
+                "Ag",
+                "Gd",
+                "Go"
+            ],
+            "answer": "Au"
+        },
+        {
+            "question": "Which famous scientist developed the theory of general relativity?",
+            "options": [
+                "Isaac Newton",
+                "Albert Einstein",
+                "Galileo Galilei",
+                "Nikola Tesla"
+            ],
+            "answer": "Albert Einstein"
+        },
+        {
+            "question": "What is the main ingredient in guacamole?",
+            "options": [
+                "Avocado",
+                "Tomato",
+                "Onion",
+                "Lime"
+            ],
+            "answer": "Avocado"
+        }
+    ],
+    "medium": [
+        {
+            "question": "Who painted the famous artwork \"The Starry Night\"?",
+            "options": [
+                "Pablo Picasso",
+                "Vincent van Gogh",
+                "Claude Monet",
+                "Salvador Dali"
+            ],
+            "answer": "Vincent van Gogh"
+        },
+        {
+            "question": "Which American president issued the Emancipation Proclamation?",
+            "options": [
+                "Abraham Lincoln",
+                "Thomas Jefferson",
+                "George Washington",
+                "Franklin D. Roosevelt"
+            ],
+            "answer": "Abraham Lincoln"
+        },
+        {
+            "question": "What is the largest organ in the human body?",
+            "options": [
+                "Liver",
+                "Heart",
+                "Brain",
+                "Skin"
+            ],
+            "answer": "Skin"
+        },
+        {
+            "question": "Who wrote the novel \"1984\"?",
+            "options": [
+                "George Orwell",
+                "Aldous Huxley",
+                "F. Scott Fitzgerald",
+                "Ernest Hemingway"
+            ],
+            "answer": "George Orwell"
+        },
+        {
+            "question": "In Greek mythology, who is the god of war?",
+            "options": [
+                "Hermes",
+                "Zeus",
+                "Apollo",
+                "Ares"
+            ],
+            "answer": "Ares"
+        },
+        {
+            "question": "Which planet is known for having a ring system around it?",
+            "options": [
+                "Saturn",
+                "Uranus",
+                "Neptune",
+                "Mercury"
+            ],
+            "answer": "Saturn"
+        },
+        {
+            "question": "In which country were the ancient pyramids of Giza built?",
+            "options": [
+                "Mexico",
+                "Egypt",
+                "Greece",
+                "China"
+            ],
+            "answer": "Egypt"
+        },
+        {
+            "question": "Which two colors make up the flag of Poland?",
+            "options": [
+                "Red and white",
+                "Blue and white",
+                "Green and white",
+                "Red and yellow"
+            ],
+            "answer": "Red and white"
+        },
+        {
+            "question": "Who wrote the play \"Romeo and Juliet\"?",
+            "options": [
+                "William Shakespeare",
+                "Arthur Miller",
+                "Tennessee Williams",
+                "Oscar Wilde"
+            ],
+            "answer": "William Shakespeare"
+        },
+        {
+            "question": "Which famous scientist is famously associated with the theory of evolution?",
+            "options": [
+                "Isaac Newton",
+                "Marie Curie",
+                "Charles Darwin",
+                "Albert Einstein"
+            ],
+            "answer": "Charles Darwin"
+        }
+    ],
+    "hard": [
+        {
+            "question": "Which German composer wrote the \"Moonlight Sonata\"?",
+            "options": [
+                "Ludwig van Beethoven",
+                "Wolfgang Amadeus Mozart",
+                "Johann Sebastian Bach",
+                "Richard Wagner"
+            ],
+            "answer": "Ludwig van Beethoven"
+        },
+        {
+            "question": "Who won the Nobel Prize for Literature in 2020?",
+            "options": [
+                "Margaret Atwood",
+                "Ernest Hemingway",
+                "Kazuo Ishiguro",
+                "Louise Glück"
+            ],
+            "answer": "Louise Glück"
+        },
+        {
+            "question": "Which country won the first FIFA World Cup in 1930?",
+            "options": [
+                "Brazil",
+                "Uruguay",
+                "England",
+                "Argentina"
+            ],
+            "answer": "Uruguay"
+        },
+        {
+            "question": "What is the chemical symbol for silver?",
+            "options": [
+                "Si",
+                "Sb",
+                "Ag",
+                "Sr"
+            ],
+            "answer": "Ag"
+        },
+        {
+            "question": "Which French queen was executed during the French Revolution?",
+            "options": [
+                "Marie Antoinette",
+                "Catherine de' Medici",
+                "Joan of Arc",
+                "Anne Boleyn"
+            ],
+            "answer": "Marie Antoinette"
+        },
+        {
+            "question": "In music, what does the Italian term \"allegro\" mean?",
+            "options": [
+                "Fast",
+                "Slow",
+                "Loud",
+                "Soft"
+            ],
+            "answer": "Fast"
+        },
+        {
+            "question": "Who was the first female Prime Minister of the United Kingdom?",
+            "options": [
+                "Margaret Thatcher",
+                "Angela Merkel",
+                "Theresa May",
+                "Indira Gandhi"
+            ],
+            "answer": "Margaret Thatcher"
+        },
+        {
+            "question": "In physics, what does the equation E=mc² represent?",
+            "options": [
+                "Einstein's theory of relativity",
+                "Newton's laws of motion",
+                "Ohm's law",
+                "Schrödinger's equation"
+            ],
+            "answer": "Einstein's theory of relativity"
+        },
+        {
+            "question": "Which artist painted the ceiling of the Sistine Chapel?",
+            "options": [
+                "Leonardo da Vinci",
+                "Sandro Botticelli",
+                "Michelangelo",
+                "Donatello"
+            ],
+            "answer": "Michelangelo"
+        },
+        {
+            "question": "Which novel is often cited as the best-selling book of all time?",
+            "options": [
+                "The Lord of the Rings",
+                "The Alchemist",
+                "Alice's Adventures in Wonderland",
+                "Don Quixote"
+            ],
+            "answer": "Don Quixote"
+        }
+    ]
+}
