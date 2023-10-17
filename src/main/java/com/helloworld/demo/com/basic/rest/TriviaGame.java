@@ -11,6 +11,8 @@ public class TriviaGame {
 
     private JSONObject allQuestions;
     private JSONObject currentQuestion;
+    private String currentQuestionDifficulty;
+    private String previousQuestionDifficulty;
     private int questionCounter = 0;
 
     public TriviaGame() {
@@ -25,6 +27,60 @@ public class TriviaGame {
         } catch (Exception e) {
             e.printStackTrace();
         }
+    }
+
+    public JSONObject getCurrentQuestion() {
+        if (currentQuestion == null) {
+            generateNewQuestion();
+        }
+
+        return this.currentQuestion;
+    }
+
+    public void resetGame() {
+        questionCounter = 0;
+        generateNewQuestion();
+    }
+
+    public void generateNewQuestion() {
+        try {
+            // Randomly select difficulty (easy, medium, or hard)
+            String difficulty = "\0";
+            difficulty = difficulties[(int) (Math.random() * 3)];
+            this.previousQuestionDifficulty = currentQuestionDifficulty;
+            this.currentQuestionDifficulty = difficulty;
+
+            // Get the JSONArray for the corresponding difficulty
+            JSONArray questions = allQuestions.getJSONArray(difficulty);
+
+            // Get question at random index
+            int index = (int) (Math.random() * questions.length());
+
+            // Get the JSONObject for the question index
+            currentQuestion = questions.getJSONObject(index);
+
+            questionCounter++;
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    // auto-gen getters and setters below
+
+    public String getCurrentQuestionDifficulty() {
+        return this.currentQuestionDifficulty;
+    }
+
+    public void setCurrentQuestionDifficulty(String currentQuestionDifficulty) {
+        this.currentQuestionDifficulty = currentQuestionDifficulty;
+    }
+
+    public String getPreviousQuestionDifficulty() {
+        return this.previousQuestionDifficulty;
+    }
+
+    public void setPreviousQuestionDifficulty(String previousQuestionDifficulty) {
+        this.previousQuestionDifficulty = previousQuestionDifficulty;
     }
 
     public String[] getDifficulties() {
@@ -43,14 +99,6 @@ public class TriviaGame {
         this.allQuestions = allQuestions;
     }
 
-    public JSONObject getCurrentQuestion() {
-        if (currentQuestion == null) {
-            generateNewQuestion();
-        }
-
-        return this.currentQuestion;
-    }
-
     public void setCurrentQuestion(JSONObject currentQuestion) {
         this.currentQuestion = currentQuestion;
     }
@@ -62,31 +110,4 @@ public class TriviaGame {
     public void setQuestionCounter(int questionCounter) {
         this.questionCounter = questionCounter;
     }
-
-    public void resetGame() {
-        questionCounter = 0;
-        generateNewQuestion();
-    }
-
-    public void generateNewQuestion() {
-        try {
-            // Randomly select difficulty (easy, medium, or hard)
-            String difficulty = "\0";
-            difficulty = difficulties[(int) (Math.random() * 3)];
-
-            // Get the JSONArray for the corresponding difficulty
-            JSONArray questions = allQuestions.getJSONArray(difficulty);
-
-            // Get question at random index
-            int index = (int) (Math.random() * questions.length());
-
-            // Get the JSONObject for the question index
-            currentQuestion = questions.getJSONObject(index);
-
-            questionCounter++;
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
 }

@@ -6,6 +6,7 @@ public class Player {
     private int wrongAnswers = 0;
 
     private Difficulty[] exDifficulties;
+    private String[] difficulties = new String[] { "easy", "medium", "hard" };
 
     public Player(String name) {
         this.name = name;
@@ -23,8 +24,14 @@ public class Player {
         HARD
     };
 
-    public void incrementPoints(Difficulty difficulty) {
-        this.points += difficulty.ordinal() + 1;
+    public void incrementPoints(String difficulty) {
+        int index = 0;
+        for (index = 0; index < difficulties.length; index++) {
+            if (difficulty.equals(difficulties[index]))
+                break;
+        }
+
+        this.points += index + 1;
     }
 
     public void incrementWrongAnswers() {
@@ -35,6 +42,8 @@ public class Player {
         this.points = 0;
         this.wrongAnswers = 0;
     }
+
+    //auto-gen getters and setters below
 
     public String getName() {
         return this.name;
